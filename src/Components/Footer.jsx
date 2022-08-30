@@ -32,6 +32,9 @@ const Footer = () => {
         <Grid item xs={3}>
           <Button variant="contained">Book Now</Button>
         </Grid>
+        <Grid item xs={3}>
+          <Button variant="contained"> Now</Button>
+        </Grid>
       </Grid>
     </>
   );

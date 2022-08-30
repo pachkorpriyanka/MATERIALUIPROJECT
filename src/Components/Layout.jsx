@@ -6,6 +6,7 @@ import Contactus from "./Contactus";
 import Footer from "./Footer";
 import Header from "./Header";
 import { Navbar } from "./Navbar";
+import { Signin } from "./Signin";
 const Layout = () => {
   return (
     <div
@@ -20,6 +21,7 @@ const Layout = () => {
         <Routes>
           <Route path="/about" element={<About />} />{" "}
           <Route path="/contactus" element={<Contactus />} />{" "}
+          <Route path="/signin" element={<Signin />} />{" "}
         </Routes>{" "}
       </BrowserRouter>{" "}
       <Header />
